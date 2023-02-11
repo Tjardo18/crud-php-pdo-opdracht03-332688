@@ -5,17 +5,21 @@
     padding: 0;
 }
 
+html, body {
+    height: 100vh;
+}
+
 body {
+    height: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-family: 'Poppins';
-}
-
-div:not(.dis) {
-    width: 450px;
-    margin-top: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
 }
 
 .card {
@@ -28,6 +32,17 @@ div:not(.dis) {
     padding: 20px;
     box-shadow: 5px 5px 16px 2px rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
     margin-bottom: 50px;
+    width: 500px;
+}
+
+.read {
+    margin-top: 10px;
+    width: 800px;
+}
+
+.inputVeld {
+    width: 450px;
+    margin-top: 10px;
 }
 
 h1 {
@@ -39,7 +54,6 @@ h1 {
     margin-top: 10px;
     font-size: 3rem;
 }
-
 
 input[type=text],
 input[type=number],
@@ -59,7 +73,7 @@ input[type=range] {
     margin-right: 10px;
 }
 
-.dis {
+.display {
     display: flex;
 }
 
