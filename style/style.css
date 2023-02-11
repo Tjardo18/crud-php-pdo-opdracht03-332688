@@ -36,7 +36,7 @@ h1 {
 }
 
 .title {
-    margin-top:10px;
+    margin-top: 10px;
     font-size: 3rem;
 }
 
@@ -55,7 +55,8 @@ input[type=range] {
 }
 
 input[type=range] {
-    width: 95%;
+    width: 92%;
+    margin-right: 10px;
 }
 
 .dis {
@@ -64,7 +65,7 @@ input[type=range] {
 
 #cijferOutput {
     margin-top: 16px;
-    margin-left: 10px;
+    width: 1px;
 }
 
 input[type=submit] {
