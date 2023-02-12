@@ -5,7 +5,8 @@
     padding: 0;
 }
 
-html, body {
+html,
+body {
     height: 100vh;
 }
 
@@ -114,6 +115,7 @@ td {
 .buttons {
     display: flex;
     justify-content: space-between;
+    width: 525px;
 }
 
 input[type=submit].truncate {

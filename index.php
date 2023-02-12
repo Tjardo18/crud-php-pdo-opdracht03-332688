@@ -19,25 +19,25 @@
             <div class="inputVeld">
                 <label for="achtbaan">
                     Naam Achtbaan:
-                    <input type="text" name="achtbaan" id="achtbaan">
+                    <input type="text" name="achtbaan" id="achtbaan" required>
                 </label>
             </div>
             <div class="inputVeld">
                 <label for="pretpark">
                     Naam Pretpark:
-                    <input type="text" name="pretpark" id="pretpark">
+                    <input type="text" name="pretpark" id="pretpark" required>
                 </label>
             </div>
             <div class="inputVeld">
                 <label for="land">
                     Naam Land:
-                    <input type="text" name="land" id="land">
+                    <input type="text" name="land" id="land" required>
                 </label>
             </div>
             <div class="inputVeld">
                 <label for="topsnelheid">
                     Topsnelheid (km/u):
-                    <input type="number" name="topsnelheid" id="topsnelheid" min="1" max="200">
+                    <input type="number" name="topsnelheid" id="topsnelheid" min="1" max="200" required>
                 </label>
             </div>
             <div class="inputVeld">

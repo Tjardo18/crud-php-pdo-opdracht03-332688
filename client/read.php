@@ -74,7 +74,7 @@ foreach ($result as $achtbaan) {
     <br>
     <div class="buttons">
         <a href="../index.php">
-            <input type="submit" value="Nieuwe Pizza">
+            <input type="submit" value="  Nieuw  ">
         </a>
         <a href="truncate.php">
             <input type="submit" class="truncate" value="Truncate">
